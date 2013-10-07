@@ -23,7 +23,6 @@
 		9882B412180345EB00E294C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882B3EE180345EB00E294C9 /* Foundation.framework */; };
 		9882B413180345EB00E294C9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882B3F2180345EB00E294C9 /* CoreData.framework */; };
 		9882B41B180345EB00E294C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9882B419180345EB00E294C9 /* InfoPlist.strings */; };
-		9882B41E180345EB00E294C9 /* CoreDataNetworkTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9882B41D180345EB00E294C9 /* CoreDataNetworkTemplateTests.m */; };
 		9882B47518034A4F00E294C9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9882B44F180349B800E294C9 /* AFHTTPRequestOperation.m */; };
 		9882B47618034A4F00E294C9 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9882B451180349B800E294C9 /* AFHTTPRequestOperationManager.m */; };
 		9882B47718034A4F00E294C9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9882B453180349B800E294C9 /* AFHTTPSessionManager.m */; };
@@ -36,6 +35,8 @@
 		9882B47F18034AB500E294C9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882B47E18034AB500E294C9 /* CoreTelephony.framework */; };
 		9882B48118034AE100E294C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882B48018034AE100E294C9 /* SystemConfiguration.framework */; };
 		9882B48318034AF100E294C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882B48218034AF100E294C9 /* Security.framework */; };
+		9882B49A18035F6200E294C9 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882B48F18035F3700E294C9 /* libKiwi.a */; };
+		9882B49D1803612E00E294C9 /* ZZZExampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9882B49C1803612E00E294C9 /* ZZZExampleTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9882B3E8180345EB00E294C9;
 			remoteInfo = CoreDataNetworkTemplate;
+		};
+		9882B48E18035F3700E294C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9882B48518035F3600E294C9 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5015B9F11583A77002E9A98;
+			remoteInfo = Kiwi;
+		};
+		9882B49018035F3700E294C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9882B48518035F3600E294C9 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C83C7157263B300F160D5;
+			remoteInfo = "Kiwi-OSX";
+		};
+		9882B49218035F3700E294C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9882B48518035F3600E294C9 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5015C9E11584017002E9A98;
+			remoteInfo = KiwiTests;
+		};
+		9882B49418035F3700E294C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9882B48518035F3600E294C9 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA084E7317E3838100592D5A;
+			remoteInfo = "Kiwi-XCTest";
+		};
+		9882B49618035F3700E294C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9882B48518035F3600E294C9 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA084D3E17E3804200592D5A;
+			remoteInfo = KiwiXCTests;
+		};
+		9882B49818035F4F00E294C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9882B48518035F3600E294C9 /* Kiwi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F5015B9E11583A77002E9A98;
+			remoteInfo = Kiwi;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -68,8 +111,6 @@
 		9882B40F180345EB00E294C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9882B418180345EB00E294C9 /* CoreDataNetworkTemplateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataNetworkTemplateTests-Info.plist"; sourceTree = "<group>"; };
 		9882B41A180345EB00E294C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9882B41C180345EB00E294C9 /* CoreDataNetworkTemplateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataNetworkTemplateTests.h; sourceTree = "<group>"; };
-		9882B41D180345EB00E294C9 /* CoreDataNetworkTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataNetworkTemplateTests.m; sourceTree = "<group>"; };
 		9882B44E180349B800E294C9 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		9882B44F180349B800E294C9 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		9882B450180349B800E294C9 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -92,6 +133,8 @@
 		9882B47E18034AB500E294C9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		9882B48018034AE100E294C9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9882B48218034AF100E294C9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9882B48518035F3600E294C9 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Submodules/Kiwi/Kiwi.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9882B49C1803612E00E294C9 /* ZZZExampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZExampleTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9882B49A18035F6200E294C9 /* libKiwi.a in Frameworks */,
 				9882B410180345EB00E294C9 /* SenTestingKit.framework in Frameworks */,
 				9882B411180345EB00E294C9 /* UIKit.framework in Frameworks */,
 				9882B412180345EB00E294C9 /* Foundation.framework in Frameworks */,
@@ -126,9 +170,6 @@
 		9882B3E0180345EB00E294C9 = {
 			isa = PBXGroup;
 			children = (
-				9882B48218034AF100E294C9 /* Security.framework */,
-				9882B48018034AE100E294C9 /* SystemConfiguration.framework */,
-				9882B47E18034AB500E294C9 /* CoreTelephony.framework */,
 				9882B3F4180345EB00E294C9 /* CoreDataNetworkTemplate */,
 				9882B416180345EB00E294C9 /* CoreDataNetworkTemplateTests */,
 				9882B3EB180345EB00E294C9 /* Frameworks */,
@@ -149,6 +190,9 @@
 		9882B3EB180345EB00E294C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9882B47E18034AB500E294C9 /* CoreTelephony.framework */,
+				9882B48018034AE100E294C9 /* SystemConfiguration.framework */,
+				9882B48218034AF100E294C9 /* Security.framework */,
 				9882B3EC180345EB00E294C9 /* UIKit.framework */,
 				9882B3EE180345EB00E294C9 /* Foundation.framework */,
 				9882B3F0180345EB00E294C9 /* CoreGraphics.framework */,
@@ -186,8 +230,7 @@
 		9882B416180345EB00E294C9 /* CoreDataNetworkTemplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				9882B41C180345EB00E294C9 /* CoreDataNetworkTemplateTests.h */,
-				9882B41D180345EB00E294C9 /* CoreDataNetworkTemplateTests.m */,
+				9882B49C1803612E00E294C9 /* ZZZExampleTest.m */,
 				9882B417180345EB00E294C9 /* Supporting Files */,
 			);
 			path = CoreDataNetworkTemplateTests;
@@ -232,10 +275,23 @@
 		9882B47418034A0500E294C9 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				9882B48518035F3600E294C9 /* Kiwi.xcodeproj */,
 				9882B44D180349B800E294C9 /* AFNetworking */,
 			);
 			name = Vendor;
 			path = CoreDataNetworkTemplate;
+			sourceTree = "<group>";
+		};
+		9882B48618035F3600E294C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9882B48F18035F3700E294C9 /* libKiwi.a */,
+				9882B49118035F3700E294C9 /* libKiwi-OSX.a */,
+				9882B49318035F3700E294C9 /* KiwiTests.octest */,
+				9882B49518035F3700E294C9 /* libKiwi-XCTest.a */,
+				9882B49718035F3700E294C9 /* KiwiXCTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +326,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9882B49918035F4F00E294C9 /* PBXTargetDependency */,
 				9882B415180345EB00E294C9 /* PBXTargetDependency */,
 			);
 			name = CoreDataNetworkTemplateTests;
@@ -297,6 +354,12 @@
 			mainGroup = 9882B3E0180345EB00E294C9;
 			productRefGroup = 9882B3EA180345EB00E294C9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9882B48618035F3600E294C9 /* Products */;
+					ProjectRef = 9882B48518035F3600E294C9 /* Kiwi.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9882B3E8180345EB00E294C9 /* CoreDataNetworkTemplate */,
@@ -304,6 +367,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9882B48F18035F3700E294C9 /* libKiwi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKiwi.a;
+			remoteRef = 9882B48E18035F3700E294C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9882B49118035F3700E294C9 /* libKiwi-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKiwi-OSX.a";
+			remoteRef = 9882B49018035F3700E294C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9882B49318035F3700E294C9 /* KiwiTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiTests.octest;
+			remoteRef = 9882B49218035F3700E294C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9882B49518035F3700E294C9 /* libKiwi-XCTest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKiwi-XCTest.a";
+			remoteRef = 9882B49418035F3700E294C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9882B49718035F3700E294C9 /* KiwiXCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiXCTests.xctest;
+			remoteRef = 9882B49618035F3700E294C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9882B3E7180345EB00E294C9 /* Resources */ = {
@@ -367,7 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9882B41E180345EB00E294C9 /* CoreDataNetworkTemplateTests.m in Sources */,
+				9882B49D1803612E00E294C9 /* ZZZExampleTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +479,11 @@
 			isa = PBXTargetDependency;
 			target = 9882B3E8180345EB00E294C9 /* CoreDataNetworkTemplate */;
 			targetProxy = 9882B414180345EB00E294C9 /* PBXContainerItemProxy */;
+		};
+		9882B49918035F4F00E294C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kiwi;
+			targetProxy = 9882B49818035F4F00E294C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -491,6 +597,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataNetworkTemplate/CoreDataNetworkTemplate-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"Submodules/Kiwi/Classes/**",
+					"Submodules/Kiwi/NonARC/**",
+				);
 				INFOPLIST_FILE = "CoreDataNetworkTemplateTests/CoreDataNetworkTemplateTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -508,6 +618,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataNetworkTemplate/CoreDataNetworkTemplate-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"Submodules/Kiwi/NonARC/**",
+					"Submodules/Kiwi/Classes/**",
+				);
 				INFOPLIST_FILE = "CoreDataNetworkTemplateTests/CoreDataNetworkTemplateTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
