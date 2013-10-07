@@ -1,3 +1,6 @@
 [submodule "Submodules/AFNetworking"]
 	path = Submodules/AFNetworking
 	url = git@github.com:AFNetworking/AFNetworking.git
+[submodule "Submodules/Kiwi"]
+	path = Submodules/Kiwi
+	url = git@github.com:allending/Kiwi.git
